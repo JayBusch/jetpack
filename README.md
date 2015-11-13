@@ -106,9 +106,17 @@ Run `jetpack` without any arguments to see available commands. Use
 To initialize the ZFS datasets and directory structure, run `jetpack
 init`.
 
+To start the MDS one time, run: 
+
+    /usr/local/libexec/jetpack/mds &
+    
+the path to the MDS script may be different; check using:
+            
+    jetpack config path.libexec
+
 To get a console, run:
 
-    jetpack run 3ofcoins.net/freebsd.base
+    jetpack run -t 3ofcoins.net/freebsd-base
 
 This will fetch our signing GPG key, then fetch the FreeBSD base ACI,
 and finally run a pod and drop you into its console. After you exit
