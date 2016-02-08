@@ -23,7 +23,6 @@ func Die(err error) {
 var Host *jetpack.Host
 
 func main() {
-	_ = "breakpoint"
 	flag.Parse()
 
 	if h, err := jetpack.NewHost(); err != nil {
