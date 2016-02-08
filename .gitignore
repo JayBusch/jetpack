@@ -1,8 +1,8 @@
-/bin
 .fuse*
 /tmp
 /jetpack.conf
 /.vagrant
-/vendor/bin
-/vendor/pkg
-/pkg
+/bin
+/gopath
+/vendor/github.com/appc/spec/bin
+/vendor/github.com/appc/spec/gopath

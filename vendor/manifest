@@ -2,74 +2,39 @@
 	"version": 0,
 	"dependencies": [
 		{
-			"importpath": "code.google.com/p/go-uuid",
-			"repository": "https://code.google.com/p/go-uuid",
-			"revision": "35bc42037350",
-			"branch": "default"
-		},
-		{
 			"importpath": "github.com/appc/spec",
 			"repository": "https://github.com/appc/spec",
-			"revision": "818ac4d0073424f4e0a46f45abaa147ccc1b5a24",
+			"revision": "0875c991a496fe2b65ed296551c667b199a6bfb8",
 			"branch": "HEAD"
-		},
-		{
-			"importpath": "github.com/appc/spec/Godeps/_workspace/src/github.com/coreos/go-semver/semver",
-			"repository": "https://github.com/appc/spec",
-			"revision": "5a7af198346710d6a432b109b4ddda1c11aad963",
-			"branch": "master",
-			"path": "/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-		},
-		{
-			"importpath": "github.com/appc/spec/Godeps/_workspace/src/github.com/spf13/pflag",
-			"repository": "https://github.com/appc/spec",
-			"revision": "5a7af198346710d6a432b109b4ddda1c11aad963",
-			"branch": "master",
-			"path": "/Godeps/_workspace/src/github.com/spf13/pflag"
-		},
-		{
-			"importpath": "github.com/appc/spec/Godeps/_workspace/src/golang.org/x/net/html",
-			"repository": "https://github.com/appc/spec",
-			"revision": "5a7af198346710d6a432b109b4ddda1c11aad963",
-			"branch": "master",
-			"path": "/Godeps/_workspace/src/golang.org/x/net/html"
-		},
-		{
-			"importpath": "github.com/appc/spec/Godeps/_workspace/src/k8s.io/kubernetes/pkg/api/resource",
-			"repository": "https://github.com/appc/spec",
-			"revision": "5a7af198346710d6a432b109b4ddda1c11aad963",
-			"branch": "master",
-			"path": "/Godeps/_workspace/src/k8s.io/kubernetes/pkg/api/resource"
-		},
-		{
-			"importpath": "github.com/appc/spec/Godeps/_workspace/src/speter.net/go/exp/math/dec/inf",
-			"repository": "https://github.com/appc/spec",
-			"revision": "5a7af198346710d6a432b109b4ddda1c11aad963",
-			"branch": "master",
-			"path": "/Godeps/_workspace/src/speter.net/go/exp/math/dec/inf"
 		},
 		{
 			"importpath": "github.com/coreos/ioprogress",
 			"repository": "https://github.com/coreos/ioprogress",
-			"revision": "326b3ee6276a33c8bdcf480ca9c99228942ab970",
+			"revision": "4637e494fd9b23c5565ee193e89f91fdc1639bc0",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/hashicorp/errwrap",
+			"repository": "https://github.com/hashicorp/errwrap",
+			"revision": "7554cd9344cec97297fa6649b055a8c98c2a1e55",
 			"branch": "master"
 		},
 		{
 			"importpath": "github.com/hashicorp/go-multierror",
 			"repository": "https://github.com/hashicorp/go-multierror",
-			"revision": "56912fb08d85084aa318edcf2bba735b97cf35c5",
+			"revision": "d30f09973e19c1dfcd120b2d9c4f168e68d6b5d5",
 			"branch": "master"
 		},
 		{
 			"importpath": "github.com/juju/errors",
 			"repository": "https://github.com/juju/errors",
-			"revision": "4567a5e69fd3130ca0d89f69478e7ac025b67452",
+			"revision": "1b5e39b83d1835fa480e0c2ddefb040ee82d58b3",
 			"branch": "master"
 		},
 		{
 			"importpath": "github.com/magiconair/properties",
 			"repository": "https://github.com/magiconair/properties",
-			"revision": "359442d561ca28acd0fe503aa9f075f505bc9ed0",
+			"revision": "c81f9d71af8f8cba1466501d30326b99a4e56c19",
 			"branch": "master"
 		},
 		{
@@ -81,19 +46,25 @@
 		{
 			"importpath": "github.com/mgutz/ansi",
 			"repository": "https://github.com/mgutz/ansi",
-			"revision": "22ddafb24adc4786c83841aa3021349818c898e4",
+			"revision": "c286dcecd19ff979eeb73ea444e479b903f2cfcb",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/pborman/uuid",
+			"repository": "https://github.com/pborman/uuid",
+			"revision": "dee7705ef7b324f27ceb85a121c61f2c2e8ce988",
 			"branch": "master"
 		},
 		{
 			"importpath": "golang.org/x/crypto",
 			"repository": "https://go.googlesource.com/crypto",
-			"revision": "2f677ffe0a128ed6d4e3ecb565e4d29a6c6365da",
+			"revision": "803f01ea27e23d998825ec085f0d153cac01c828",
 			"branch": "master"
 		},
 		{
 			"importpath": "golang.org/x/sys/unix",
 			"repository": "https://go.googlesource.com/sys",
-			"revision": "b4e289961544fc90f340c908c3460ceae6a2202a",
+			"revision": "833a04a10549a95dc34458c195cbad61bbb6cb4d",
 			"branch": "master",
 			"path": "/unix"
 		}
