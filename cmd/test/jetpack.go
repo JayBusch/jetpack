@@ -49,7 +49,7 @@ func listImages(args ...string) []ListedImage {
 }
 
 func isThereImage(name string) (bool, error) {
-	acid, labels, err := acutil.ParseImageName(imgName)
+	acid, labels, err := acutil.ParseImageName(name)
 	if err != nil {
 		return false, err
 	}
